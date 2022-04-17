@@ -1,0 +1,19 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "\"Inital package.json file created\"",
+  "main": "os.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njsaugat/NodeJS.git"
+  },
+  "author": "\"Saugat Poudel\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njsaugat/NodeJS/issues"
+  },
+  "homepage": "https://github.com/njsaugat/NodeJS#readme"
+}
