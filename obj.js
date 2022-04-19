@@ -14,4 +14,4 @@ const person={
 
 // person.sayMyName()()
 person.sayMyName2()
-// console.log(person.sayMyName())
+console.log(person.sayMyName())
