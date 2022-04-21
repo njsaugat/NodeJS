@@ -13,3 +13,4 @@ setTimeout(()=>{
 },0)
 
 console.log(globalThis)
+console.log(globalThis)
