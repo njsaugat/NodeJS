@@ -1,0 +1,50 @@
+{
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "editor.semanticHighlighting.enabled": true,
+    "[cpp]": {
+    
+        "editor.wordBasedSuggestions": false,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true
+    },
+    "C_Cpp.errorSquiggles": "Enabled",
+    "leetcode.workspaceFolder": "",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "sundial.daySettings": {
+    "workbench.preferredLightColorTheme": "Solarized Light",
+    "workbench.preferredDarkColorTheme": "Monokai"
+    },
+    "workbench.colorCustomizations": {
+       
+    },
+    "workbench.preferredLightColorTheme": "Solarized Light",
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.colorTheme": "Monokai",
+    "editor.fontSize": 16,
+    "editor.fontFamily": " Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "600",
+    "editor.tokenColorCustomizations": {
+        "[Solarized Light]": {
+            "functions": "#0AA300",
+            "strings": "#005885",
+            "keywords": "#CC562D",
+            "numbers": "#895890",
+            "types": "#4700B5"
+        }
+    },
+    "editor.letterSpacing": 0.4,
+    "git.autofetch": true,
+    "javascript.updateImportsOnFileMove.enabled": "always"
+
+}
