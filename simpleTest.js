@@ -6,18 +6,18 @@ fs.writeFile('./fsBYjs/testAsyn1.txt',`so first we write the line
     this is going to be async code, hence
     will cover some of the important concepts`,
     (err)=>{
-        if(err){
+        // if(err){
             console.log(err+'this is the error in writeFile so ')
-        }
+        // }
         const data1= fs.readFile('./fsBYjs/testAsyn1.txt','utf-8',
                 (err,data)=>{
-                    if(err){
+                    // if(err){
                         console.log(err+'this is from the readFile so testing it.')
-                    }
+                    // }
                     console.log(data);
                 })
-        const data2=fs.readFileSync('./fsBYjs/testAsyn1.txt','utf-8')
-        console.log(data2);
+        // const data2=fs.readFileSync('./fsBYjs/testAsyn1.txt','utf-8')
+        // console.log(data2);
         console.log(data1+" here is it")
     }
 )
