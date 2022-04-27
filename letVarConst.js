@@ -28,3 +28,15 @@ let c=5;
 //      |
 // so this is not allowed with let]
 // ie no redeclaration
+
+
+// the other stuff with let is that it is
+// block scope ie
+
+{
+    let a=324;
+    console.log(a)
+    // using a is possible here although a was const above
+    // this is because of the block that is being defined
+    
+}
