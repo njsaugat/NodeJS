@@ -8,6 +8,9 @@ const server=http.createServer((req,res)=>{
     for(let i=0;i<1000;i++){
         res.write('hello there');
     }
+    console.log(res.statusCode)
+    console.log(req.statusCode)// returns null as req request doesn't
+    // have as status code; only response have a status code;
     res.end();
     // console.log(res.end().constructor.name);
 
