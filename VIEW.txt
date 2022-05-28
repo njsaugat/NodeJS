@@ -1,0 +1,14 @@
+thought we could handle views with plain node js 
+but I was wrong
+There's no way to handle views with plain node js
+The reason express was developed was to add views on the project
+So to sum up--> with vanila node we cant create views
+To create views we have to use template engine and to use template
+engine we have to use express
+
+
+
+The only way to use template engines to create views is through express
+
+Express also requires us to use templating engine to create our HTML files to dynamically
+inject values into these files
