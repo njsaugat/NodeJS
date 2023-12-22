@@ -1,9 +1,8 @@
-const fs=require('fs')// like this way we have access to the file system
+const fs = require("fs"); // like this way we have access to the file system
+// I am making the changes directly
 
-
-// this is to make a directory by using Sync method 
-// fs.mkdirSync('fsBYjs');// running this command made me create a file directory 
-
+// this is to make a directory by using Sync method
+// fs.mkdirSync('fsBYjs');// running this command made me create a file directory
 
 //this is to like create a file
 // to create a file pani we will use writeFileSync
@@ -30,7 +29,6 @@ const fs=require('fs')// like this way we have access to the file system
 */
 
 // fs.writeFileSync('./fsBYjs/first.txt','this is my  first file and the word hello is removed from previous file ');
-
 
 // hence we use append to add at last instead of re-writing it agian
 
@@ -64,16 +62,10 @@ const fs=require('fs')// like this way we have access to the file system
 //     fs.appendFileSync('./fsBYjs/first.txt'," , "+ String(i))+",";
 // }
 
-
-
-
 // so after all this, we have kinda like the message out there in the file, but we haven't read it;
-// hence let's go and let's read that 
+// hence let's go and let's read that
 
 // fs.readFileSync('./fsBYjs/first.txt',"utf-8");// this thing returns the value so it has to be saved somewhere to get the value
-
-
-
 
 // the other way to append a file with write command is as follows:
 /*
@@ -87,6 +79,5 @@ const fs=require('fs')// like this way we have access to the file system
 
 // fs.writeFileSync('./fsBYjs/first.txt','yeah this is thru write but with append flag', {flag:'a'})
 
-const fileData=fs.readFileSync('./fsBYjs/first.txt',"utf-8")
+const fileData = fs.readFileSync("./fsBYjs/first.txt", "utf-8");
 console.log(fileData);
-
