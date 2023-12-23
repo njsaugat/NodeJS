@@ -1,3 +1,4 @@
+// for async
 const fs=require('fs');
 const { type } = require('os');
 
