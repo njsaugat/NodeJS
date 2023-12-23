@@ -10,19 +10,18 @@
 // console.log(http.ClientRequest)
 // const _='hello';
 // console.log(_)
-// crypto
-var i=0;
-const http=require('http')
-const server=http.createServer((req,res)=>{
-    // console.log(req.url)
-    if(req.url!='/favicon.ico'){// so basically browser makes 2 req
-        // to kinda get the icon as well 
-        i=i+1;
-        console.log(`request sent ${i}`)
-        // console.log('request sent')
-        res.end('hello world');
-    }
-})
-server.listen(3000,()=>console.log('heel'));// this  callback runs auto 
+var i = 0;
+const http = require("http");
+const server = http.createServer((req, res) => {
+  // console.log(req.url)
+  if (req.url != "/favicon.ico") {
+    // so basically browser makes 2 req
+    // to kinda get the icon as well
+    i = i + 1;
+    console.log(`request sent ${i}`);
+    // console.log('request sent')
+    res.end("hello world");
+  }
+});
+server.listen(3000, () => console.log("heel")); // this  callback runs auto
 // as soon as the port is ready the callback is fired
-
