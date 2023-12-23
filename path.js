@@ -1,3 +1,4 @@
+// file path
 const path=require('path');
 console.log(path.sep)// essentially tries to show what is path seperator😉
 

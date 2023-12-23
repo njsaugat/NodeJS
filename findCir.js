@@ -8,6 +8,6 @@
 
 // const {personObj}=require('./circle.js')
 // console.log(personObj);
-
+// find cir
 import add from './circle.mjs'
 console.log(add(4,4));

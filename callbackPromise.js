@@ -1,4 +1,3 @@
-console.log('start');
 
 function loginUser(email,password,fun,getUserVideos){
     setTimeout(()=>{

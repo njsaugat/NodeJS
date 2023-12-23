@@ -1,3 +1,4 @@
+// for async
 async function example() {
 
     let promise = new Promise((resolve, reject) => {

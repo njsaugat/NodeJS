@@ -1,3 +1,4 @@
+// let var const
 let i=1
 console.log(++i);
 const a=2

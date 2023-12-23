@@ -1,3 +1,4 @@
+// module
 const name='hello';
 
 const add=(num1, num2)=>{

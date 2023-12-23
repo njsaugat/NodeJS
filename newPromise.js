@@ -1,3 +1,4 @@
+// new promise
 // prom //running a promise before declaring it wont run it
 // .then(fun1)
 // .then(fun1)
