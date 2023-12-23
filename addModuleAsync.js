@@ -1,4 +1,3 @@
-//for the fs
 const fs=require('fs')
 console.log('hello world')
 fs.writeFile('./fsBYjs/moduleInfoAsync.txt',`[Function: Module] {
