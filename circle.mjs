@@ -1,4 +1,3 @@
-// circle
 // function calcArea(rad){
 //     return (22/7)*rad*rad;
 // }
